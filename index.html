@@ -1,13 +1,13 @@
 <html>
-<head>
-<title>Skillnet on GitHub</title>
-<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <head>
+    <title>Skillnet on GitHub</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
 
 <style type="text/css">
 body {
 	background-color: #3C3C3C;;
 	margin: 0px;
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica Neue' Helvetica Arial sans-serif;
 }
 #header {
 	background-color:  black;
@@ -35,18 +35,14 @@ body {
 	color: white;
 	height: 200px;
 }
-#navi {
-	float: left;
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
 }
-#navi ul {
-	    list-style-type: none;
-}
-#navi li {
-	padding-bottom: 0.7ex;
-}
-#navi a {
-	color: #FF7900;
-	text-decoration: none;
+li {
+	margin: 0 0 0.5em 0;
+	padding: 0; 
 }
 #content {
 	position: absolute;
@@ -54,43 +50,28 @@ body {
 	left: 200px;
 }
 
-#content h3, h2 {
-}
+.darkorange {	color: #FF7900; }
+.orange { 	color: #FF9433; }
+.green {	color: #95C633; }
+.blue {		color: #698797; }
+.red {		color: red;	}
 
-.darkorange {
-	color: #FF7900;
-}
-.orange {
-	color: #FF9433;
-}
-.green {
-	color: #95C633;
-}
-.blue {
-	color: #698797;
-}
-.red {
-	color: red;
-}
-a {
-	color: #FF7900;
-}
-#questions a {
-	text-decoration:none;
-}
+a {	color: #FF7900; }
 </style>
-</head>
-<body>
-<div id="header">
-<img src="logo.png"/>
-</div>
-<div id="page">
-<div id="content">
-<h3 class="green">Skillnet opensource projects</h3>
-<a href="http://github.com/skillnet/validates_email_with_smtp/tree/master">validates_email_with_smtp</a> - Rails plugin which validates email address using smtp.<br/>
-<a href="http://rubyforge.org/projects/diff-csv/">diff-csv</a> - Library API and command line tool to compare CSV files.
-</ul>
-</div>
-</div>
-</body>
+  </head>
+  <body>
+    <div id="header">
+      <img src="logo.png"/>
+    </div>
+    <div id="page">
+      <div id="content">
+        <h3 class="green">Skillnet opensource projects</h3>
+        <ul>
+          <li><a href="http://github.com/skillnet/validates_email_with_smtp/tree/master">validates_email_with_smtp</a> - Rails plugin which validates email address using smtp.</li>
+        <li><a href="http://rubyforge.org/projects/diff-csv/">diff-csv</a> - Library API and command line tool to compare CSV files.</li>
+        <li><a href="http://github.com/skillnet/github-wiki-inspector/tree/master">github-wiki-inspector</a> - Compact Rails WebApp to inspect GitHub Wiki pages.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
